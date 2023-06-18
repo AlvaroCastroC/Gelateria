@@ -1,0 +1,108 @@
+footer {
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+    padding: 0 15px;
+    background-color: #100f0f;
+}
+.rodape img {
+    width: 100px;
+}
+
+.rodape {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.rodape .container-dados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+}
+
+.container-dados div {
+    width: 150px;
+    height: 100px;
+    
+}
+
+.container-dados h5 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.container-dados p {
+    font-size: 13px;
+    color: #fff;
+    text-align: justify;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    color: #474646;
+    
+    
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 920px) {
+
+    footer {
+        height: 50vh;
+        
+    }
+    
+    .rodape {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .rodape .container-dados {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .container-dados div {
+        width: auto;
+        height: 110px;
+        
+    }
+    
+    .container-dados h5 {
+        font-size: 2cqmax;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    
+    .container-dados p {
+        font-size: 1.4cqmax;
+        color: #fff;
+        text-align: justify;
+    }
+    
+    footer p{
+        font-size: 2cqmin;
+        text-align: center;
+        color: #474646;
+        
+        
+        
+    }
+    
+
+}

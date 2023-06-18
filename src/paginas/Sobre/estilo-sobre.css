@@ -1,0 +1,149 @@
+
+.secao-banner-sobre {
+    content: ' ';
+    display: inline-flex;
+    background-image: url(../../../public/assets/banner-sobre.png);
+    background-position: center 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(238, 180, 63);
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.conteudo-banner-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-banner-sobre h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 2px 4px rgb(38, 37, 37);
+}
+
+.secao-sobre {
+    text-align: center;
+}
+
+.secao-sobre h2{
+    margin: 0;
+    margin-top: 50px;
+   color: #8c3c07;
+   text-shadow: 2px 2px 2px #f040be;
+}
+
+.secao-sobre h4{
+    margin-bottom: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.secao-sobre p {
+    margin-bottom: 50px;
+    text-align: justify;
+
+}
+
+.imagens-sobre {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.imagens-sobre img {
+    width: calc(100% / 2);
+    
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .secao-banner-sobre {
+        background-position: center center;
+        background-size: cover;
+        height: 90vh;
+
+
+    }
+    .conteudo-banner-sobre h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .secao-sobre h2{
+       font-size: 2.5rem;
+    }
+
+    .secao-sobre h4{
+        font-size: 0.7rem;
+    }
+
+    .secao-sobre p {
+        font-size: 0.7rem;
+        padding: 0 10px;
+    }
+
+ 
+    
+    .imagens-sobre {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .imagens-sobre img {
+        width: calc(100% / 2);
+        object-fit: fill;
+    }
+    
+}
+
+@media only screen and (min-width: 426px) and (max-width: 920px) {
+    
+    .secao-banner-sobre {
+        background-position: center center;
+        background-size: cover;
+        height: 90vh;
+
+
+    }
+    .conteudo-banner-sobre h1 {
+        font-size: 8.5cqmax;
+        text-align: center;
+    }
+    
+    .secao-sobre h2{
+       font-size: 6cqmax;
+    }
+
+    .secao-sobre h4{
+        font-size: 1.5cqmax;
+    }
+
+    .secao-sobre p {
+        font-size: 1.9cqmax;
+        padding: 0 10px;
+    }
+
+ 
+    
+    .imagens-sobre {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .imagens-sobre img {
+        width: calc(100% / 2);
+        object-fit: fill;
+
+    }
+    
+}
