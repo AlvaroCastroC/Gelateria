@@ -4,9 +4,6 @@ import Topo from '../../componentes/Topo/';
 import Rodape from '../../componentes/Rodape/';
 
 import './estilo-home.css';
-
-
-
 function PaginaInicial() {
     return(
     <body>
@@ -22,7 +19,8 @@ function PaginaInicial() {
         <section className='secao-sabores container-limite'>
             <div className=' conteudo'>
                     <div>
-                        <img src='assets/banner-sabores.jpg' alt='imagem sorvete' title='imagem sorvete' />
+                        <img src='assets/banner-sabores.jpg'
+                        alt='imagem sorvete' title='imagem sorvete' />
                     </div>
                     <div className='container-texto'>
                         <h4>Nossos sabores</h4>
@@ -46,7 +44,8 @@ function PaginaInicial() {
                         </div>
 
                         <div>
-                            <img src='assets/eventos-image.jpg' alt='imagem de uma estande' title='imagem de uma estande' />
+                            <img src='assets/eventos-image.jpg'
+                            alt='imagem de uma estande' title='imagem de uma estande' />
                         </div>
               </div>
         </section>

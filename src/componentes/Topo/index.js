@@ -1,9 +1,6 @@
 
 import {Link} from 'react-router-dom';
-
-
 import './estilo-topo.css';
-
 
 
 const Topo = () => (
@@ -11,7 +8,7 @@ const Topo = () => (
        <div>
        <div className="cabecalho container-limite">
             <div>
-                <img src="assets/logo.png" alt='logo' title='logo' />
+                <img src='assets/logo.png' alt='logo' title='logo' />
             </div>
 
             <nav>

@@ -51,7 +51,7 @@ function Sabores () {
                 <div className='card-box'>
 
                         <div>
-                            <img src='assets/sabor-pistache.png' alt='imagem sorvete' title='imagem sorvete' />
+                            <img src='assets/sabor-pistache.png'alt='imagem sorvete' title='imagem sorvete' />
                         </div>
                         
                         <div className='container-texto'>

@@ -2,7 +2,7 @@
 .secao-banner {
     content: ' ';
     display: inline-flex;
-    background-image: url(../../../public/assets/banner-home.png);
+    background-image: url(../../public/assets/banner-home.png);
     background-position: center 40px;
     background-attachment: fixed;
     background-repeat: no-repeat;

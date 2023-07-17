@@ -1,7 +1,7 @@
 .secao-banner-sabores {
     content: ' ';
     display: inline-flex;
-    background-image: url(../../../public/assets/banner-sabores.jpg);
+    background-image: url(../../public/assets/banner-sabores.jpg);
     background-position: center bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;

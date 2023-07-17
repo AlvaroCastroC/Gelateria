@@ -1,12 +1,11 @@
 import './estilo-rodape.css';
 
-
 function Rodape () {
     return (
         <footer>
             <section className='container-limite rodape'>
                 <div>
-                    <img src="assets/logo.png" alt="logo" title="logo" />
+                    <img src='assets/logo.png' alt="logo" title="logo" />
                 </div>
                 <div className='container-dados'>
                     <div>
