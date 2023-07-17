@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/gelateria/static/css/main.9bca5018.css",
-    "main.js": "/gelateria/static/js/main.ad5e9c49.js",
-    "static/js/787.9cfc1c8f.chunk.js": "/gelateria/static/js/787.9cfc1c8f.chunk.js",
+    "main.css": "/gelateria/static/css/main.5979015b.css",
+    "main.js": "/gelateria/static/js/main.50edae93.js",
     "static/media/banner-sobre.png": "/gelateria/static/media/banner-sobre.e958a86cc903592d30f0.png",
+    "static/media/sorveteria.jpg": "/gelateria/static/media/sorveteria.12b4dd18376307d7b514.jpg",
+    "static/media/sorbet-kiwi.png": "/gelateria/static/media/sorbet-kiwi.1d686a3cd99dad58f590.png",
+    "static/media/sorbet-morango.png": "/gelateria/static/media/sorbet-morango.b6d74417c9d1255f2dcd.png",
+    "static/media/sabor-oreo.png": "/gelateria/static/media/sabor-oreo.7c5ef5b688af5a016dae.png",
+    "static/media/sorbet-limao.png": "/gelateria/static/media/sorbet-limao.528da3c8081e6c295875.png",
+    "static/media/sabor-pistache.png": "/gelateria/static/media/sabor-pistache.e246c4968935d9a1c95c.png",
+    "static/media/eventos-image.jpg": "/gelateria/static/media/eventos-image.52db016e72e58ed0f60a.jpg",
+    "static/media/sabor-cookies-avela.png": "/gelateria/static/media/sabor-cookies-avela.6d9a4635039a0394a488.png",
     "static/media/banner-sabores.jpg": "/gelateria/static/media/banner-sabores.0e325a982b455ed9676c.jpg",
     "static/media/banner-home.png": "/gelateria/static/media/banner-home.a58e6b19f3f9b4c9c3dc.png",
+    "static/media/sobre-image.jpg": "/gelateria/static/media/sobre-image.64e81a3845601828d9e6.jpg",
+    "static/media/logo.png": "/gelateria/static/media/logo.cc496c2d18f7fc71a23f.png",
     "index.html": "/gelateria/index.html",
-    "main.9bca5018.css.map": "/gelateria/static/css/main.9bca5018.css.map",
-    "main.ad5e9c49.js.map": "/gelateria/static/js/main.ad5e9c49.js.map",
-    "787.9cfc1c8f.chunk.js.map": "/gelateria/static/js/787.9cfc1c8f.chunk.js.map"
+    "main.5979015b.css.map": "/gelateria/static/css/main.5979015b.css.map",
+    "main.50edae93.js.map": "/gelateria/static/js/main.50edae93.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bca5018.css",
-    "static/js/main.ad5e9c49.js"
+    "static/css/main.5979015b.css",
+    "static/js/main.50edae93.js"
   ]
 }
